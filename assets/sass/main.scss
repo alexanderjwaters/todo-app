@@ -10,7 +10,7 @@ $orange: #F7C75F;
 
 *{ box-sizing: border-box;  }
 html,
-body { background-color: white; height: 100%;}
+body { background-color: white; color: $white; height: 100%;}
 #home{ 
   align-items: center;
   background: url("https://static.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg") center center;
@@ -23,18 +23,34 @@ body { background-color: white; height: 100%;}
 
   .welcome-box{
     background-color: rgba(0, 0, 0, .6);
+    border-radius: 3px;
     padding: 40px 15px;
 
-    h1{
-      color: white;
-    }
     font: { 
       family: 'Roboto', sans-serif; 
       size: 28px;
       weight: 100;
     }
     text: {
+      align: center;
       transform: uppercase;
+    }
+  }
+}
+.btn{
+  border-radius: 2px;
+  margin: 15px 0;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  &.light-blue{
+    background-color: $light-blue;
+    font: {
+      size: 25px;
+      weight: 400;
+    }
+    text: {
+      transform: capitalize;
     }
   }
 }
