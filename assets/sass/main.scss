@@ -37,23 +37,37 @@ body { background-color: white; color: $white; height: 100%;}
     }
   }
 }
-.btn{
-  border-radius: 2px;
-  margin: 15px 0;
-  padding: 10px;
-  width: 100%;
-  text-align: center;
-  &.light-blue{
-    background-color: $light-blue;
-    font: {
-      size: 25px;
-      weight: 400;
-    }
-    text: {
-      transform: capitalize;
+a{
+  color: $white;
+  cursor: pointer;
+  text: {
+    decoration: none;
+  }
+  &:hover {
+    color: $dark-blue;
+  }
+  &:active {
+    color: $dark-blue;
+  }
+  .btn{
+    border-radius: 2px;
+    margin: 15px 0;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    &.light-blue{
+      background-color: $light-blue;
+      font: {
+        size: 25px;
+        weight: 400;
+      }
+      text: {
+        transform: capitalize;
+      }
     }
   }
 }
+
 
 
 
