@@ -11,6 +11,25 @@ $orange: #F7C75F;
 *{ box-sizing: border-box;  }
 html,
 body { background-color: white; color: $white; height: 100%;}
+.btn{
+  border-radius: 2px;
+  margin: 15px 0;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  &.light-blue{
+    background-color: $light-blue;
+    font: {
+      size: 25px;
+      weight: 400;
+    }
+    text: {
+      transform: capitalize;
+    }
+  }
+}
+
+/* Main Index.html */
 #home{ 
   align-items: center;
   background: url("https://static.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg") center center;
@@ -49,41 +68,20 @@ a{
   &:active {
     color: $dark-blue;
   }
-  .btn{
-    border-radius: 2px;
-    margin: 15px 0;
-    padding: 10px;
-    width: 100%;
-    text-align: center;
-    &.light-blue{
-      background-color: $light-blue;
-      font: {
-        size: 25px;
-        weight: 400;
-      }
-      text: {
-        transform: capitalize;
-      }
-    }
-  }
 }
 
+/* All tasks index.html */
+#all-tasks{ 
+  background: url("https://static.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .header{
+    background: rgba(58, 71, 147, .6);
+    padding: 50px 15px;
+  }
+}
 
 
 // body {
