@@ -1,5 +1,5 @@
 # Starter-Kit-2018
-# Created by Coding Phase Dot Co
+# Created by Coding Phase Dot Com
 
 **Steps**
 ---------
