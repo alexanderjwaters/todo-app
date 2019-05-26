@@ -78,8 +78,29 @@ a{
   width: 100%;
 
   .header{
-    background: rgba(58, 71, 147, .6);
+    background: rgba(58, 71, 147, .3);
     padding: 50px 15px;
+    &::after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .left-head{
+      float: left;
+      width: 60%;
+    }
+    .right-head{
+      background: rgba(58, 71, 147, .3);
+      float: left;
+      width: 40%;
+
+      .task-area{
+
+      }
+      .complete-area{
+        
+      }
+    }
   }
 }
 
